@@ -7,7 +7,7 @@ def main():
     object3 = Shirts(enum_size.Size.L,enum_gender.Gender.UNISEX, "Blousyy","light pink", "cotton","Zara",enum_country.Country.CHINA,790,enum_target.Target.SPECIAL_OCCASION,enum_sleeves.Sleeves.LONG,enum_length.Length.STANDART)
     goods = [object1, object2, object3]
     list = ShopManager(goods)
-    print(list.search_by_ocassion(enum_target.Target.SPECIAL_OCCASION))
+    print(list.search_by_occasion(enum_target.Target.SPECIAL_OCCASION))
     print ("\n")
     print(list.sort_by_price(enum_sort_order.SortOrder.DESC))
     print("\n")
