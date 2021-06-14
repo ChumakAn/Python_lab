@@ -1,4 +1,5 @@
-# Third_Lab
+
+# Python_third_lab
 # Programming_labs
 Lab 3 Task:
 Write the code for the task from the lab №2
@@ -21,4 +22,5 @@ The implementation of sorting should provide the ability to sort both in descend
 To run the program:
 Clone/Download LabNo3 branch
   - Go into the folder
-  - Type `python3 main.py` in cmd
+  - Type `python3 main.py` in cm
+
